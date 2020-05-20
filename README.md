@@ -1,6 +1,6 @@
 # .MD Website
 
-Simple, Deno CLI to generate simple websites from Markdown files.
+Simple, Deno CLI to generate simple websites from Markdown files. Checkout the example at: https://md-website-example.now.sh/
 
 Our goal is to utilize https://newcss.net/ as a super simple framework to render markdown files that are parsed to HTML. A navigation will be generated based on the filenames.
 
