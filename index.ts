@@ -1,8 +1,12 @@
 import snarkdown from 'https://cdn.pika.dev/snarkdown/^1.2.2'
-import { walk, WalkOptions, WalkEntry } from 'https://deno.land/std/fs/walk.ts'
-import { readFileStr } from 'https://deno.land/std/fs/read_file_str.ts'
-import { writeFileStr } from 'https://deno.land/std/fs/write_file_str.ts'
-import { ensureDir } from 'https://deno.land/std/fs/ensure_dir.ts'
+import {
+  walk,
+  WalkOptions,
+  WalkEntry,
+} from 'https://deno.land/std@0.51.0/fs/walk.ts'
+import { readFileStr } from 'https://deno.land/std@0.51.0/fs/read_file_str.ts'
+import { writeFileStr } from 'https://deno.land/std@0.51.0/fs/write_file_str.ts'
+import { ensureDir } from 'https://deno.land/std@0.51.0/fs/ensure_dir.ts'
 
 const targetDir = 'public'
 
